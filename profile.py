@@ -26,3 +26,7 @@ node.addService(pg.Execute(shell="sh", command="/local/repository/silly.sh"))
 
 # Print the RSpec to the enclosing page.
 pc.printRequestRSpec(request)
+
+
+#commands found at
+#http://docs.cloudlab.us/
