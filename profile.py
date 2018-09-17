@@ -17,7 +17,7 @@ request = pc.makeRequestRSpec()
 
 
 # Add a VM to the request.
-node = request.XenVm("node")
+node = request.XenVM("node")
 node.disk_image = "urn:publicid:IDN+emulab.net+image+emulab-ops:CENTOS7-64-STD"
 node.routable_control_ip = True
 
